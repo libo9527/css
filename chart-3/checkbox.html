@@ -12,11 +12,23 @@
         .checkbox input{
             display: none;
         }
+        /*
+        A + B
+        相邻兄弟选择器：B是A的下一个兄弟节点（AB有相同的父结点，并且B紧跟在A的后面）
+        */
         .checkbox input + label{
+            /*
+                background:url(./checkbox1.png) left center no-repeat;
+                等价于：
+                - background-image: url(./checkbox1.png);
+                - background-position: left center;
+                - background-repeat: no-repeat;
+            */
             background:url(./checkbox1.png) left center no-repeat;
             background-size:20px 20px;
             padding-left:20px;
         }
+        /* :checked 伪类，表示选中状态 */
         .checkbox input:checked + label{
             background-image:url(./checkbox2.png);
         }

@@ -1,13 +1,3 @@
-## chart-1
-
-前端三大件
-
-1. HTML 结构
-2. CSS 样式
-3. JavaScript 行为
-
-## chart-2
-
 ### HTML 常见元素和理解
 
 HTML 常见元素大体可以分为两大部分，一部分是 head 中的元素，另一部分是则是 body 中的元素。
@@ -110,13 +100,13 @@ body 中的元素会在页面中直接显示内容。
 
       > **enctype**
       >
-      > 当  属性值为 , enctype 是将form的内容提交给服务器的MIME 类型（媒体类型）。
+      > 当 `method` 属性值为 `post` 时, enctype 是将 form 的内容提交给服务器的 MIME 类型（媒体类型）。
       >
       > - `application/x-www-form-urlencoded`: 未指定属性时的默认值。
-      > - `multipart/form-data`: 这个值用于一个 `type` 属性设置为 "file" 的 [``](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input) 元素。
+      > - `multipart/form-data`: 这个值用于一个 `type` 属性设置为 "file" 的 [`<input>`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input) 元素。
       > - `text/plain (HTML5)`
       >
-      > 这个值可以被 [``](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/button) 或者 [``](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input) 元素中的 `formenctype` 属性重载（覆盖）。
+      > 这个值可以被 [`<button>`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/button) 或者 [`<input>`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input) 元素中的 `formenctype` 属性重载（覆盖）。
 
       encode type，指定用什么方式进行编码，只要针对 post 请求，post 请求主要有两种编码方式，一种是 URL encode 的方式，另一种是 from data，这种方式会将 form 内容进行编码，然后放在请求体中，例如要上传文本时就需要指定为该类型。
 
@@ -219,6 +209,10 @@ HTML 就是用来描述文档的结构（可以理解为大纲）的语言。比
 ### HTML 元素分类
 
 #### 按默认样式分类
+
+> [块级元素-MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Block-level_elements)
+>
+> [行内元素](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Inline_elemente#Elements)
 
 - 块级元素 block
 
@@ -369,198 +363,3 @@ HTML 就是用来描述文档的结构（可以理解为大纲）的语言。比
      比如 jQuery 的 serialize() 可以提取 form 中所有元素的值。
 
    - 第三方库可以进行表单验证
-
-## chart-3
-
-CSS（Cascading Style Sheets 层叠样式表）
-
-层叠：优先级高的会覆盖优先级低的样式
-
-```html
-<body class="body" id="body">
-  Hello CSS!
-</body>
-<style>
-  body{
-    padding: 10px;
-    font-size: 14px;
-    background:red; 
-  }
-  body.body{
-    font-size: 20px;
-    background: red;
-  }
-  #body{
-    background: blue;
-  }
-</style>
-```
-
-### 基本规则
-
-#### 语法
-
-```css
-选择器 {
-  属性: 值;
-  属性: 值
-}
-```
-
-- `;` 在 CSS 中是分隔符，并不是语句结束符
-
-#### 选择器
-
-- 用于匹配 HTML 元素
-- 有不同的匹配规则
-- 多个选择器可以叠加
-
-##### 分类和权重
-
-###### 分类
-
-- 元素选择器 a{}
-- 伪元素选择器 ::before{}
-- 类选择器 .link{}
-- 属性选择器 [type=radio]{}
-- 伪类选择器 :hover{}
-- ID 选择器 #id{}
-- 组合选择器 [type=checkbox] + label{}
-- 否定选择器 :not(.link){}
-- 通用选择器 *{}
-
-###### 权重
-
-- ID 选择器 #id{} +100
-- 类 属性 伪类 +10
-- 元素 伪元素 +1
-- 其他选择器 +0
-
-例如：
-
-```
-#id .link a[href]
-
-#id +100
-.link +10
-a +1
-[href] +0
-结果：111
-```
-
-```
-#id .link.active
-
-#id +100
-.link +10
-.active +10
-结果：120
-```
-
-需要注意的是选择器的权重的计算是不进位的，即再多的类选择器叠加起来也大不过 ID选择器（官大一级压死人）
-
-- !important 优先级最高
-- 元素属性（即内联样式） 优先级高于外部样式
-- 相同权重 后者高
-
-##### 解析方式和性能
-
-浏览器解析选择器的方式是从有往左进行解析的，目的是为了更加快速的定位元素，
-
-##### 常见选择器
-
-### 非布局样式
-
-- 字体、自重、颜色、大小、行高
-
-  - 字体族
-
-    - serif sans-serif monospace(等宽字体) cursive fantasy
-
-      字体族不能加引号，具体的字体需要加引号
-
-    - 多字体 fallback
-
-      第一个找不到就用第二个，依次递推
-
-    - 网络字体、自定义字体
-
-    - iconfont
-
-  - 字重（粗体）font-weight
-
-  - 行高
-
-    - 行高的构成
-
-      行高有 line-box 决定的，line-box 是由 inline-box 组成的，inline-box 的高度会决定行高的高度。
-
-    - 行高相关的现象和方案
-
-      - 图片 3px 缝隙问题
-
-        原理：img 是 inline 元素，默认按照基线对其，但基线到底线是有一定距离的。
-
-        解决方案：
-
-        1. vertical-align：bottom
-        2. display：block
-
-    - 行高的调整
-
-- 背景、边框
-
-  - 背景
-
-    - 背景颜色
-
-    - 渐变色背景
-
-    - 多背景叠加
-
-    - 背景图片和属性（雪碧图）
-
-      雪碧图，就是只请求一张图片，这张图片包含了所有的图标，通过背景位置来显示具体的某个图标。
-
-    - base64 和性能优化
-
-    - 多分辨率适配
-
-  - 边框
-
-    - 线型、大小、颜色
-    - 边框背景图
-      - 边框衔接（三角形）
-
-- 滚动、换行
-
-  - 滚动
-    - 滚动行为和滚动条
-  - 文字折行
-    - overflow-wrap（word-wrap）通用换行控制
-      - 是否保留单词
-    - word-break 针对多子节文字
-      - 中文句子也是单词
-    - white-space 空白处是否断行
-
-- 粗体、斜体、下划线
-
-  - 字重（粗体）font-weight
-  - 斜体 font-style: itatic
-  - 下划线 text-decoration
-  - 指针 cursor
-
-- 其他
-
-#### CSS Hack
-
-- 在一部分浏览器上生效的写法称为 CSS Hack。Hack 即不合法但生效的写法，主要用于区分不同的浏览器。
-
-- 缺点：难理解、难维护、易失效。
-
-- 替代方案：特性检测，针对性加 class
-
-#### 案例
-
-##### 使用纯 CSS 来美化一个 checkbox
-

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabs made by css</title>
+    <style>
+        .tabs{
+            display: flex;
+            position: relative;
+        }
+        input[type='radio'] {
+            display: none;
+        }
+        input[type='radio'] + label{
+            display: block;
+            position: relative;
+            margin-right: 5px;
+            padding: 5px;
+            background: #cbcccc;
+            height: 17px;
+            line-height: 17px;
+            border: 1px solid transparent;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        input[type='radio']:checked + label{
+            border-color: #cbcccc;
+            border-bottom-color: #fff;
+            background: #fff;
+            z-index: 10;
+        }
+        input[type='radio'] ~ .tab-content{
+            position: absolute;
+            left: 0;
+            top: 28px;
+            z-index: 0;
+            width: 400px;
+            height: 200px;
+            border: 1px solid #cbcccc;
+            border-radius: 5px;
+            border-top-left-radius: 0;
+            background: #fff;
+        }
+        input[type='radio']:checked ~ .tab-content{
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="tabs">
+        <div class="tab-item">
+            <input type="radio" name="tab-radio" id="tab-radio-1" checked/>
+            <label for="tab-radio-1">Tab-1-label</label>
+            <div class="tab-content">Tab-1-content</div>
+        </div>
+        <div class="tab-item">
+            <input type="radio" name="tab-radio" id="tab-radio-2"/>
+            <label for="tab-radio-2">Tab-2-label</label>
+            <div class="tab-content">Tab-2-content</div>
+        </div>
+        <div class="tab-item">
+            <input type="radio" name="tab-radio" id="tab-radio-3"/>
+            <label for="tab-radio-3">Tab-3-label</label>
+            <div class="tab-content">Tab-3-content</div>
+        </div>
+    </div>
+</body>
+</html>

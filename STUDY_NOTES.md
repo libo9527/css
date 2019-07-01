@@ -8,3 +8,5 @@
 
 ## [chart-2](./chart-2/STUDY_NOTES.md)
 
+## [chart-3](./chart-3/STUDY_NOTES.md)
+

@@ -2,39 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdaaf211-1922-4e8e-bf13-598c26290aca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/css.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STUDY_NOTES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-2/STUDY_NOTES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-2/block-inline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-2/common-elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-2/default-style.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-2/html4-or-xhtml-format.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-2/valid-html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-2/valid-xhtml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/IndieFlower.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/STUDY_NOTES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/background-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/border.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/checkbox1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/checkbox2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/css-basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/font-weight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/fonts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/inline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/line-height.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/scroll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/selector-priority.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/selector-priority2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/test_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart-3/wrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chart-3/tabs-use-css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chart-3/tabs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/WX20190701-174001@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/WX20190701-180429@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/WX20190701-193502@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDY_NOTES.md" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY_NOTES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart-2/STUDY_NOTES.md" beforeDir="false" afterPath="$PROJECT_DIR$/chart-2/STUDY_NOTES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart-3/STUDY_NOTES.md" beforeDir="false" afterPath="$PROJECT_DIR$/chart-3/STUDY_NOTES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart-3/checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/chart-3/checkbox.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,42 +27,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chart-3/checkbox.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chart-2/STUDY_NOTES.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+            <state relative-caret-position="266">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/STUDY_NOTES.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/chart-3/tabs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="57" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chart-3/STUDY_NOTES.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="133">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/chart-3/tabs-use-css.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -99,6 +60,16 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>chart-3</find>
+      <find>test-radio</find>
+      <find>tab-box</find>
+      <find>tab-list</find>
+      <find>z-index</find>
+      <find>test-label</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -111,6 +82,11 @@
         <option value="$PROJECT_DIR$/chart-3/selector-priority2.html" />
         <option value="$PROJECT_DIR$/chart-3/font-weight.html" />
         <option value="$PROJECT_DIR$/STUDY_NOTES.md" />
+        <option value="$PROJECT_DIR$/chart-3/STUDY_NOTES.md" />
+        <option value="$PROJECT_DIR$/chart-3/checkbox.html" />
+        <option value="$PROJECT_DIR$/chart-2/STUDY_NOTES.md" />
+        <option value="$PROJECT_DIR$/chart-3/tabs.html" />
+        <option value="$PROJECT_DIR$/chart-3/tabs-use-css.html" />
       </list>
     </option>
   </component>
@@ -141,6 +117,11 @@
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="chart-3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="css" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshot" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -152,12 +133,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chart-3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/screenshot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screenshot" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screenshot" />
       <recent name="$PROJECT_DIR$/chart-3" />
       <recent name="$PROJECT_DIR$/chart-2" />
     </key>
@@ -184,23 +169,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561944856183</updated>
-      <workItem from="1561944857574" duration="12698000" />
+      <workItem from="1561944857574" duration="20780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12698000" />
+    <option name="totallyTimeSpent" value="20780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1466" height="1049" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24982698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24982698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -354,23 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chart-3/checkbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chart-3/STUDY_NOTES.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="133">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -379,10 +347,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chart-2/STUDY_NOTES.md">
+    <entry file="file://$PROJECT_DIR$/chart-3/STUDY_NOTES.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="95">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -390,10 +360,50 @@
     <entry file="file://$PROJECT_DIR$/STUDY_NOTES.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <first_editor relative-caret-position="228">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart-3/checkbox1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshot/WX20190701-174402@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart-3/checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart-2/STUDY_NOTES.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1313">
+            <folding>
+              <element signature="e#85#89#0" expanded="true" />
+              <element signature="e#92#96#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart-3/tabs-use-css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart-3/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="57" selection-end-column="40" />
         </state>
       </provider>
     </entry>
