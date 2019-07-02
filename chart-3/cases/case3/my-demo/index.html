@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pure CSS collapsible tree menu | gzhennaxia</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        ol.tree {
+            padding-left: 24px;
+        }
+        li {
+            position: relative;
+            list-style: none;
+        }
+        li > a {
+            background: url(file.png) 0 0 no-repeat;
+            color: black;
+            padding-left: 21px;
+            text-decoration: none;
+            display: block;
+        }
+        input[type="checkbox"] {
+            position: absolute;
+            top: 4px;
+            left: 0;
+            height: 12px;
+            width: 12px;
+            margin: 1px;
+            opacity: 0;
+            z-index: 2;
+            cursor: pointer;
+        }
+        input[type="checkbox"] ~ ol {
+            background: url(expand-toggle.png) 31px center no-repeat;
+            margin: -21px 0 0 -31px;
+            /* TODO 去掉这个 height 会导致下面的覆盖上面的情况，原因还不知道 */
+            height: 21px;
+        }
+        input[type="checkbox"] ~ ol > li {
+            display: none;
+        }
+        input[type="checkbox"] + label {
+            background: url(folder.png) 16px 3px no-repeat;
+            cursor: pointer;
+            display: block;
+            padding-left: 37px;
+        }
+        input[type="checkbox"]:checked ~ ol {
+            background: url(contract-toggle.png) 39px 5px no-repeat;
+            margin: -23px 0 0 -39px;
+            padding: 25px 0 0 75px;
+            height: auto;
+        }
+        input[type="checkbox"]:checked ~ ol > li {
+            display: block;
+            margin: 0 0 2px;
+        }
+        input[type="checkbox"]:checked ~ ol > li:last-child {
+            margin: 0 0 1px;
+        }
+    </style>
+</head>
+<body>
+    <ol class="tree">
+        <li>
+            <input type="checkbox" id="folder1">
+            <label for="folder1">Folder-1</label>
+            <ol>
+                <li><a href="">File-1</a></li>
+                <li>
+                    <input type="checkbox" id="subfolder1">
+                    <label for="subfolder1">Subfolder-1</label>
+                    <ol>
+                        <li><a href="">Subfile-1</a></li>
+                        <li><a href="">Subfile-2</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <input type="checkbox" id="folder2">
+            <label for="folder1">Folder-2</label>
+            <ol>
+                <li><a href="">File-2</a></li>
+                <li>
+                    <input type="checkbox" id="subfolder2">
+                    <label for="subfolder1">Subfolder-2</label>
+                    <ol>
+                        <li><a href="">Subfile-1</a></li>
+                        <li><a href="">Subfile-2</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>

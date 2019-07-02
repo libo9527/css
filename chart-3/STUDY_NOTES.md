@@ -283,5 +283,15 @@ a +1
 </style>
 ```
 
-[完整代码](../chart-3/tabs-use-css.html)
+[完整代码](cases/case2/tabs-use-css.html)
+
+##### tree
+
+> [Pure CSS collapsible tree menu](https://www.thecssninja.com/css/css-tree-menu)
+>
+> [View live demo](http://www.thecssninja.com/demo/css_tree/)
+
+![](../screenshot/WX20190702-094744@2x.png)
+
+[完整代码](../chart-3/cases/case3/my-demo/index.html)
 
