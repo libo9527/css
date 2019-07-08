@@ -1,4 +1,4 @@
-## chart-1
+## Chapter-1
 
 前端三大件
 
@@ -6,10 +6,19 @@
 2. CSS 样式
 3. JavaScript 行为
 
-## [chart-2](./chart-2/STUDY_NOTES.md)
+## [Chapter-2](./chapter-2/STUDY_NOTES.md)
 
-## [chart-3](./chart-3/STUDY_NOTES.md)
+## [Chapter-3](./chapter-3/STUDY_NOTES.md)
 
+## [Chapter-4](./chapter-4/STUDY_NOTES.md)
 
-## [chart-4](./chart-4/STUDY_NOTES.md)
+## [Chapter-5](./chapter-5/STUDY_NOTES.md)
+
+## [Chapter-6](./chapter-6/STUDY_NOTES.md)
+
+## [Chapter-7](./chapter-7/STUDY_NOTES.md)
+
+## [Chapter-8](./chapter-8/STUDY_NOTES.md)
+
+## [Chapter-9](./chapter-9/STUDY_NOTES.md)
 
