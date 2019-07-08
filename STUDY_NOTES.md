@@ -22,3 +22,4 @@
 
 ## [Chapter-9](./chapter-9/STUDY_NOTES.md)
 
+## [Chapter-10](./chapter-10/STUDY_NOTES.md)
